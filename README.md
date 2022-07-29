@@ -8,7 +8,9 @@ Timeline:
 
 
 Issues:
-There is an issue where <span> tag set to hide inline text is not functioning, ie. hiding enclosed text of choice
+
+There is an issue where <span> tag set to hide inline text is not functioning, ie. it fails to hide enclosed text of choice
+  
   This span tag is set in index.html > line 32 and contains id = "more" 
   The hide property "more" is set in corresponding document style.css > line 2
   Unrelatable but notable: the JS that controls the hide function is set in script.js > line 21 under "readMoreFunction"
