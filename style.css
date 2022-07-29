@@ -1,0 +1,188 @@
+<style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 1200px;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            font-family: "Roboto Mono", monospace;
+            font-weight: bold;
+            font-size: 20px;
+
+            text-align: center;
+
+            display: grid;soci
+
+            grid-template-columns: 1fr 1200px 1fr;
+            grid-template-rows: 250px 1200px 50px;
+
+            gap: 10px;
+
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        
+        #more {
+            display: none;
+        }
+
+        .body {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            box-shadow: 0 5px 15px rgba(0,0,0, .25);
+            background-color: #C8E9E9;
+        }
+
+        .dots1 {
+            color: #4E3524;
+            font-size: 15px;
+        }
+
+        .linkedin {
+            width: 25px;
+            height: 25px;
+        }
+
+        .instagram {
+            width: 25px;
+            height: 25px;
+        }
+
+        .twitter {
+            width: 25px;
+            height: 25px;
+        }
+
+        .whatsapp {
+            width: 25px;
+            height: 25px;
+        }
+
+        .google {
+            width: 25px;
+            height: 25px;
+        }
+
+        .h4 {
+            text-align: left;
+            color: #4E3524;
+            margin-left: 75px;
+            margin-right: 75px;
+            line-height: 1.8;
+        }
+
+        .h2 {
+            text-align: left;
+            color: #4E3524;
+            margin-left: 75px;
+        }
+
+        .h1 {
+            text-align: left;
+            color: #4E3524;
+            margin-left: 75px;
+            font-size: 30px;
+            text-decoration-line: underline;
+        }
+
+        #myInput {
+              /* background-image: url('/css/searchicon.png');  Add a search icon to input */
+            background-position: 10px 12px; /* Position the search icon */
+            background-repeat: no-repeat; /* Do not repeat the icon image */
+            background-color: #ceebed;
+            width: 70%; /* Full-width */
+            font-size: 19px; /* Increase font-size */
+            padding: 12px 20px 12px 20px; /* Add some padding */
+            border: 2px solid #a4d3a5; /* Add a grey border */
+            margin-bottom: 12px; /* Add some space below the input */
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        #myUL {
+            /* Remove default list styling */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myUL li a {
+            /* border: 1px solid #ddd;  Add a border to all links */
+            margin-top: -1px; /* Prevent double borders */
+            background-color: #fff; /* Grey background color */
+            padding: 3px; /* Add some padding */
+            text-decoration: none; /* Remove default text underline */
+            font-size: 18px; /* Increase the font-size */
+            color: black; /* Add a black text color */
+            display: block; /* Make it into a block element to fill the whole list */
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        #myUL a:hover {
+            background-color: #eee;
+        }
+
+        .header {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 80px;
+        }
+
+        .socials {
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .heading {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        div.nav {
+            text-indent: 18px;
+            line-height: 2.0;
+        }
+
+        div.socials {
+            text-indent: 18px;
+            line-height: 1.8;
+        }
+
+        .nav {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            margin-top: 28px;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+          }
+
+        a:link {
+            color:#22b14c;
+            text-decoration:none;
+        }
+
+        .feed {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            text-align: left;
+        }
+
+        .feedlist {
+            text-align: left;
+        }
+
+        .footer {
+            grid-row: 3;
+            grid-column: span 3;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
